@@ -1,0 +1,32 @@
+
+.main-home {
+	text-align: center;
+	font-family: cursive;
+}
+
+.home-picture {
+	height: 68vh;
+	width: 50vh;
+}
+
+.home-header {
+	font-size: 1.6rem;
+}
+
+.home-sub-header {
+	font-weight: lighter;
+	font-size: 0.8rem;
+	margin-top: 10px;
+}
+
+.home-btn {
+	background-color: #adcbbf;
+	border: none;
+	font-size: 17px;
+	cursor: pointer;
+	margin-top: 15px;
+    padding: 20px;
+    line-height: 0px;
+    font-family: cursive;
+}
+
