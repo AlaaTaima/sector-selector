@@ -1,3 +1,4 @@
+/** @format */
 
 .main-home {
 	text-align: center;
@@ -25,8 +26,11 @@
 	font-size: 17px;
 	cursor: pointer;
 	margin-top: 15px;
-    padding: 20px;
-    line-height: 0px;
-    font-family: cursive;
+	padding: 20px;
+	line-height: 0px;
+	font-family: cursive;
 }
 
+.home-btn:hover {
+	color: white !important;
+}

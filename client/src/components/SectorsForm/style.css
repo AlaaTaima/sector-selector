@@ -22,6 +22,10 @@
 	font-family: cursive;
 }
 
+.back-home-btn:hover{
+	color: white !important ;
+}
+
 .main-container {
 	display: flex;
 	flex-direction: column;
@@ -42,7 +46,7 @@
 }
 
 .form-title {
-	color: #0099f0;
+	color: #92e3a9;
 	font-size: 17px;
 	font-weight: bold;
 	line-height: 34.32px;
@@ -93,7 +97,7 @@
 }
 
 .form-action Button {
-	background-color: #0099f0;
+	background-color: #92e3a9;
 	color: white;
 	padding: 20px;
 	width: 100%;
@@ -120,4 +124,10 @@
 
 .form-action .ant-spin-dot-item {
 	background-color: white !important;
+}
+
+
+.ant-checkbox-inner {
+    background-color: #92e3a9 !important;
+    border-color: #92e3a9 !important;
 }
