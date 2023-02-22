@@ -104,7 +104,6 @@
 	display: flex !important;
 	justify-content: center;
 	align-items: center;
-	border: 1px solid rgba(0, 0, 0, 0);
 	border-radius: 5px !important;
 	color: #fff;
 	font-size: 18px;
@@ -113,6 +112,7 @@
 .form-action Button:hover {
 	color: white !important;
 	outline: none !important;
+	border: 1px solid white !important;
 }
 
 .loading-state {
