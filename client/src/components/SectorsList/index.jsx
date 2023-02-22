@@ -57,7 +57,9 @@ function SectorsList() {
 			) : (
 				<div className='list-container'>
 					<h2 className='list-title'>Sectors List</h2>
-					<p className='list-userName'>Welcome {userName} ...</p>
+					<div className='list-userName-box'>
+						<p className='list-userName'>Welcome {userName} ...</p>
+					</div>
 					<div className='list-action-btns'>
 						<Button onClick={backToHome} className='list-single-btn'>
 							Back To Home

@@ -9,14 +9,22 @@
 	color: #92e3a9;
 }
 
+.list-userName-box {
+	display: flex;
+	width: 95%;
+}
+
 .list-userName {
 	text-align: left;
-	width: 95%;
 	font-size: 18px;
 	font-weight: bold;
 	margin: 2rem 0;
 	color: #92e3a9;
 	text-transform: capitalize;
+	background-color: white;
+	padding: 10px;
+	border-radius: 10px;
+	box-shadow: 0px 1px 9px 1px #92e3a9;
 }
 
 .list-container {
