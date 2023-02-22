@@ -9,7 +9,6 @@ const getSectors = async (req, res, next) => {
 		const { rows } = await getSectorsQuery();
 		res.json(rows);
 	} catch (err) {
-		console.log(err);
 		next(err);
 	}
 };

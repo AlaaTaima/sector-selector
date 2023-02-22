@@ -11,7 +11,6 @@ const updateSelectors = async (req, res, next) => {
 		await addSelectorsQuery(req.body);
 		res.json({ msg: 'sector has been updated successfully' });
 	} catch (error) {
-		console.log(error);
 		next(error);
 	}
 };

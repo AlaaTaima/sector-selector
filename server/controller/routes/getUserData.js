@@ -8,7 +8,6 @@ const getUserData = async (req, res, next) => {
 		const { rows } = await getuserDataQuery();
 		res.json(rows);
 	} catch (err) {
-		console.log({err});
 		next(err);
 	}
 };

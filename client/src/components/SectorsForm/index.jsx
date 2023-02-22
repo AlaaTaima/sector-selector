@@ -29,10 +29,8 @@ const SectorsForm = () => {
 	};
 
 	const handleSectorChange = (value) => {
-		console.log({ value });
 		setSelectedList(value);
 	};
-	console.log('selectedList: ', selectedList);
 
 	const backToHome = () => {
 		navigate('/');
@@ -65,7 +63,6 @@ const SectorsForm = () => {
 			setLoading(false);
 			navigate('/sectorsList', { state: { list: selectedList, userName } });
 		} catch (err) {
-			console.log(err);
 			let error;
 			setLoading(false);
 			if (err.response) {
@@ -91,7 +88,6 @@ const SectorsForm = () => {
 
 			setLoadingSectors(false);
 		} catch (err) {
-			console.log(err);
 			let error;
 			setLoadingSectors(false);
 			if (err.response) {
@@ -115,7 +111,6 @@ const SectorsForm = () => {
 
 			setLoadingSectors(false);
 		} catch (err) {
-			console.log(err);
 			let error;
 			setLoadingSectors(false);
 			if (err.response) {

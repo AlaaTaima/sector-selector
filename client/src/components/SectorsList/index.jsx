@@ -33,7 +33,6 @@ function SectorsList() {
 
 			setLoadingSectors(false);
 		} catch (err) {
-			console.log(err);
 			let error;
 			setLoadingSectors(false);
 			if (err.response) {
